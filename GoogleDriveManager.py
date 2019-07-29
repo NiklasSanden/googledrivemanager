@@ -66,7 +66,7 @@ def main():
     global dir_name
     dir_name = os.getcwd()
     if (os.path.exists(os.path.join(dir_name, "credentials.json")) == False):
-        print("There is no \"credentials.json file in \"" + dir_name + ".\nPlease download one from: https://developers.google.com/drive/api/v3/quickstart/python")
+        print("There is no \"credentials.json\" file in " + dir_name + ".\nPlease download one from: https://developers.google.com/drive/api/v3/quickstart/python")
         input()
         return
 
